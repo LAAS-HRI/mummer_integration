@@ -16,7 +16,7 @@ And build the dockerfiles with :
 cd mummer_integration
 docker build --tag laas:navigation ./navigation/
 docker build --tag laas:planning ./planning/
-docker build --tag laas:situation_assesment ./situation_assessment/
+docker build --tag laas:situation_assessment ./situation_assessment/
 docker build --tag laas:onthology ./onthology/
 docker build --tag laas:supervision ./supervision/
 docker build --tag laas:full ./full/
@@ -36,10 +36,10 @@ The [wiki home](https://github.com/LAAS-HRI/mummer_integration/wiki) will introd
 
 [**Supervision**](https://github.com/LAAS-HRI/mummer_integration/wiki/Supervision)
 
-Finally, the experimentation setup and the material used will be described briefly :  
+Finally, the experimentation setup and the material that can be used will be described briefly :  
 
 [**Experiment setup**](https://github.com/LAAS-HRI/mummer_integration/wiki/Experiment-setup)
 
-    - 
-    -
-    -
+* [Global Setup (Mall simulation)]()
+* [Motion capture system]()
+* [Eye tracking system]()

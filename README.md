@@ -53,8 +53,11 @@ sudo apt-get install docker-ce
 Test your installation with :
 ```
 sudo docker run hello-world
-
 ```
+
+To use docker without sudo, follow the [instructions here](https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user)
+
+
 ## Images installation instructions
 
 Clone the repository :

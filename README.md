@@ -32,7 +32,7 @@ Finally, the experimentation setup and the material that can be used will be des
 [**Experiment setup**](https://github.com/LAAS-HRI/mummer_integration/wiki/Experiment-setup)
 
 * [Motion capture system](https://github.com/LAAS-HRI/mummer_integration/wiki/MotionCapture)
-* [Motion capture system](https://github.com/LAAS-HRI/mummer_integration/wiki/MotionCapture)
+* [Mocap Localization](https://github.com/LAAS-HRI/mummer_integration/wiki/MotionCapture)
 * [Mocap/depth calibration](https://github.com/LAAS-HRI/mummer_integration/wiki/MocapDepthCalibration)
 
 ## Docker installation instructions

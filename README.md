@@ -6,12 +6,12 @@ Contains the dockerfiles and the wiki for mummer first integration
 The [wiki home](https://github.com/LAAS-HRI/mummer_integration/wiki) will introduce you the global architecture and then each component will be described respectively :
 
 [**Navigation**](https://github.com/LAAS-HRI/mummer_integration/wiki/Navigation)
-* [GUI Usage](https://github.com/LAAS-HRI/mummer_integration/wiki/navGUI)
+* [GUI usage](https://github.com/LAAS-HRI/mummer_integration/wiki/navGUI)
 * [Approach task](https://github.com/LAAS-HRI/mummer_integration/wiki/ApproachTask)
 * [Human aware reactive navigation task](https://github.com/LAAS-HRI/mummer_integration/wiki/NavigationTask)
 
 [**Ontology**](https://github.com/LAAS-HRI/mummer_integration/wiki/Ontology)
-* [GUI Usage](https://github.com/LAAS-HRI/mummer_integration/wiki/ontGUI)
+* [GUI usage](https://github.com/LAAS-HRI/mummer_integration/wiki/ontGUI)
 * [Semantic route planner](https://github.com/LAAS-HRI/mummer_integration/wiki/SemanticRoutePlanner)
 * [Route description](https://github.com/LAAS-HRI/mummer_integration/wiki/RouteDescription)
 
@@ -32,7 +32,7 @@ Finally, the experimentation setup and the material that can be used will be des
 [**Experiment setup**](https://github.com/LAAS-HRI/mummer_integration/wiki/Experiment-setup)
 
 * [Motion capture system](https://github.com/LAAS-HRI/mummer_integration/wiki/MotionCapture)
-* [Mocap Localization](https://github.com/LAAS-HRI/mummer_integration/wiki/MotionCapture)
+* [Mocap localization](https://github.com/LAAS-HRI/mummer_integration/wiki/MotionCapture)
 * [Mocap/depth calibration](https://github.com/LAAS-HRI/mummer_integration/wiki/MocapDepthCalibration)
 
 ## Docker installation instructions

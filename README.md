@@ -7,7 +7,7 @@ The [wiki home](https://github.com/LAAS-HRI/mummer_integration/wiki) will introd
 
 [**Navigation**](https://github.com/LAAS-HRI/mummer_integration/wiki/Navigation)
 
-[**Ontology**](https://github.com/LAAS-HRI/mummer_integration/wiki/Onthology)
+[**Ontology**](https://github.com/LAAS-HRI/mummer_integration/wiki/Ontology)
 
 [**Planning**](https://github.com/LAAS-HRI/mummer_integration/wiki/Planning)
 
@@ -19,9 +19,7 @@ Finally, the experimentation setup and the material that can be used will be des
 
 [**Experiment setup**](https://github.com/LAAS-HRI/mummer_integration/wiki/Experiment-setup)
 
-* [Global Setup (Mall simulation)]()
-* [Motion capture system]()
-* [Eye tracking system]()
+* [Motion capture system](https://github.com/LAAS-HRI/mummer_integration/wiki/MotionCapture)
 
 ## Docker installation instructions
 

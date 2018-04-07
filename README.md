@@ -14,6 +14,7 @@ The [wiki home](https://github.com/LAAS-HRI/mummer_integration/wiki) will introd
 [**Situation assessment**](https://github.com/LAAS-HRI/mummer_integration/wiki/Situation-assessment)
 
 * [Predicates generated](https://github.com/LAAS-HRI/mummer_integration/wiki/Predicates)
+* [Wrappers for low-level actions](https://github.com/LAAS-HRI/mummer_integration/wiki/Wrappers)
 
 [**Supervision**](https://github.com/LAAS-HRI/mummer_integration/wiki/Supervision)
 

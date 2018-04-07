@@ -12,7 +12,7 @@ The [wiki home](https://github.com/LAAS-HRI/mummer_integration/wiki) will introd
 [**Planning**](https://github.com/LAAS-HRI/mummer_integration/wiki/Planning)
 
 [**Situation assessment**](https://github.com/LAAS-HRI/mummer_integration/wiki/Situation-assessment)
-
+* [GUI usage](https://github.com/LAAS-HRI/mummer_integration/wiki/sitGUI)
 * [Predicates generated](https://github.com/LAAS-HRI/mummer_integration/wiki/Predicates)
 * [Wrappers for low-level actions](https://github.com/LAAS-HRI/mummer_integration/wiki/Wrappers)
 

@@ -13,6 +13,8 @@ The [wiki home](https://github.com/LAAS-HRI/mummer_integration/wiki) will introd
 
 [**Situation assessment**](https://github.com/LAAS-HRI/mummer_integration/wiki/Situation-assessment)
 
+* [Predicates generated](https://github.com/LAAS-HRI/mummer_integration/wiki/Predicates)
+
 [**Supervision**](https://github.com/LAAS-HRI/mummer_integration/wiki/Supervision)
 
 Finally, the experimentation setup and the material that can be used will be described briefly :  

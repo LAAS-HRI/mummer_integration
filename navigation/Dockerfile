@@ -10,6 +10,12 @@ RUN apt-get update && apt-get install -y ros-kinetic-tf ros-kinetic-move-base \
 RUN mkdir catkin_ws && mkdir catkin_ws/src
 WORKDIR catkin_ws/src
 
+ADD https://api.github.com/repos/guilhembn/mummer_navigation/git/refs/heads/master \
+    https://api.github.com/repos/guilhembn/tf_hanp/git/refs/heads/master \
+    https://api.github.com/repos/guilhembn/laas_navigation/git/refs/heads/master \
+    https://api.github.com/repos/guilhembn/hateb_local_planner/git/refs/heads/time-to-goal \
+    https://api.github.com/repos/LAAS-HRI/perspectives_msgs/git/refs/heads/master /tmp/    
+
 RUN git clone  https://github.com/guilhembn/mummer_navigation && \
     git clone  https://github.com/guilhembn/tf_hanp.git && \
     git clone  https://github.com/guilhembn/laas_navigation.git && \
@@ -20,6 +26,11 @@ RUN git clone  https://github.com/guilhembn/mummer_navigation && \
 
 RUN source /opt/ros/kinetic/setup.bash && pwd && ls && cd .. && catkin_make
 
+COPY ./pynaoqi_sdk/pynaoqi-python2.7-2.5.5.5-linux64.tar.gz /tmp/pynaoqi-python2.7-2.5.5.5-linux64.tar.gz
+COPY ./pynaoqi_sdk/setup_pynaoqi.bash ../
+
+RUN cd /opt && tar xzvf /tmp/pynaoqi-python2.7-2.5.5.5-linux64.tar.gz
+
 WORKDIR ../
 
-CMD source /opt/ros/kinetic/setup.bash && source devel/setup.bash && roslaunch mummer_navigation mummer_navigation.launch
+CMD source /opt/ros/kinetic/setup.bash && source devel/setup.bash && source setup_pynaoqi.bash && roslaunch mummer_navigation mummer_navigation.launch

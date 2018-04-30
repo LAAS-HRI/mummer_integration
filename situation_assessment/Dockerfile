@@ -38,11 +38,11 @@ RUN git clone https://github.com/LAAS-HRI/laas_models.git && \
     git clone https://github.com/underworlds-robot/ar_object_provider.git && \
     git clone https://github.com/underworlds-robot/physics_filter.git && \
     git clone https://github.com/LAAS-HRI/head_manager.git && \
+    git clone https://github.com/LAAS-HRI/deictic_gestures.git && \
+    git clone https://github.com/LAAS-HRI/speech_wrapper.git && \
     git clone https://github.com/LAAS-HRI/multimodal_human_monitor.git && \
     git clone https://github.com/LAAS-HRI/perspectives.git
 
 RUN source /opt/ros/kinetic/setup.bash && cd .. && catkin_make && source ./devel/setup.bash
 
-RUN uwds start
-
-CMD source /opt/ros/kinetic/setup.bash && source ../devel/setup.bash && roslaunch perspectives mummer_no_gui.launch
+CMD uwds start && source /opt/ros/kinetic/setup.bash && source ../devel/setup.bash && roslaunch perspectives mummer_no_gui.launch

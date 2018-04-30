@@ -45,4 +45,4 @@ RUN source /opt/ros/kinetic/setup.bash && cd .. && catkin_make && source ./devel
 
 RUN uwds start
 
-CMD [ "roslaunch", "perspectives mummer_no_gui.launch" ]
+CMD source /opt/ros/kinetic/setup.bash && source ../devel/setup.bash && roslaunch perspectives mummer_no_gui.launch

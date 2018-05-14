@@ -14,7 +14,9 @@ ADD https://api.github.com/repos/guilhembn/mummer_navigation/git/refs/heads/mast
     https://api.github.com/repos/guilhembn/tf_hanp/git/refs/heads/master \
     https://api.github.com/repos/guilhembn/laas_navigation/git/refs/heads/master \
     https://api.github.com/repos/guilhembn/hateb_local_planner/git/refs/heads/time-to-goal \
-    https://api.github.com/repos/LAAS-HRI/perspectives_msgs/git/refs/heads/master /tmp/    
+    https://api.github.com/repos/LAAS-HRI/perspectives_msgs/git/refs/heads/master \
+    https://api.github.com/repos/guilhembn/navigation_acting_head_behavior/git/refs/heads/master \
+    https://api.github.com/repos/LAAS-HRI/head_manager/git/refs/heads/master /tmp/
 
 RUN git clone  https://github.com/guilhembn/mummer_navigation && \
     git clone  https://github.com/guilhembn/tf_hanp.git && \
@@ -22,7 +24,9 @@ RUN git clone  https://github.com/guilhembn/mummer_navigation && \
     git clone -b time-to-goal https://github.com/guilhembn/hateb_local_planner.git teb_local_planner && \
     git clone -b time-to-goal https://github.com/harmishhk/hanp_msgs.git && \
     git clone https://github.com/harmishhk/hanp_prediction.git && \
-    git clone https://github.com/LAAS-HRI/perspectives_msgs.git
+    git clone https://github.com/LAAS-HRI/perspectives_msgs.git && \
+    git clone https://github.com/LAAS-HRI/head_manager.git && \
+    git clone https://github.com/guilhembn/navigation_acting_head_behavior.git
 
 RUN source /opt/ros/kinetic/setup.bash && pwd && ls && cd .. && catkin_make
 

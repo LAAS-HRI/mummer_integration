@@ -12,7 +12,7 @@ RUN source /opt/ros/kinetic/setup.bash && catkin_make && source ./devel/setup.ba
 
 WORKDIR /catkin_ws/src
 
-RUN git cloneXT https://github.com/LAAS-HRI/guiding_as
+RUN git clone https://github.com/LAAS-HRI/guiding_as
 RUN git clone https://github.com/LAAS-HRI/executive_smach
 RUN git clone https://github.com/LAAS-HRI/dialogue_as
 RUN git clone https://github.com/LAAS-HRI/mummer_integration_msgs
